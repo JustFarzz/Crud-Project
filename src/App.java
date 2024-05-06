@@ -126,6 +126,7 @@ class CatatanGUI extends JFrame {
         JPanel listPanel = new JPanel(new BorderLayout());
 
         jumlahCatatanLabel = new JLabel("   Catatan Terdaftar : 0");
+        jumlahCatatanLabel.setForeground(new Color(255, 255, 255));
         listPanel.add(jumlahCatatanLabel, BorderLayout.NORTH);
         //listPanel.add(new JLabel("  Catatan Terdaftar :" + catatanApp.getCatatanList().size()), BorderLayout.NORTH);
         listPanel.add(new JScrollPane(catatanList), BorderLayout. CENTER);
