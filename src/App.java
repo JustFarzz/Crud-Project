@@ -96,7 +96,7 @@ class CatatanGUI extends JFrame {
         // Set text and background color for "Hapus" button
         JButton hapusButton = new JButton("Hapus"); 
         hapusButton.setForeground(Color.white);
-        hapusButton.setBackground(new Color(255, 78, 78));
+        hapusButton.setBackground(new Color(255, 0, 0));
 
 
         // Set layout
