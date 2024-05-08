@@ -60,7 +60,7 @@ class CatatanGUI extends JFrame {
         this.catatanApp = catatanApp;
 
         setTitle("Catatan Kita");
-        setSize(600, 400);
+        setSize(400, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
@@ -97,6 +97,7 @@ class CatatanGUI extends JFrame {
         JButton hapusButton = new JButton("Hapus"); 
         hapusButton.setForeground(Color.white);
         hapusButton.setBackground(new Color(255, 0, 0));
+        //Perubahan oleh andhika dengan merubah warna yang lebih merah dari sebelumnya
 
 
         // Set layout
